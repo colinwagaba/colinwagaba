@@ -1,0 +1,14 @@
+.SocialLink {
+  text-decoration: none;
+  display: flex;
+}
+
+.SocialLink svg {
+  height: 3rem;
+  width: auto;
+  fill: #f00;
+}
+
+.SocialLink:hover svg {
+  fill: #fff;
+}
