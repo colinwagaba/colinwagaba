@@ -1,9 +1,54 @@
 .App {
-  display: flex;
   height: 100vh;
   overflow: hidden;
   position: relative;
-  flex-direction: column;
   background: url(../../assets/images/hero.jpg) no-repeat center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.Wrapper {
+  z-index: 1;
+  color: #fff;
+  display: grid;
+  grid-gap: 5rem;
+}
+
+header {
+  text-transform: capitalize;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+main {
+  display: grid;
+  grid-gap: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+main div:nth-child(2) {
+  color: #f00;
+}
+
+footer {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-gap: 1rem;
 }
