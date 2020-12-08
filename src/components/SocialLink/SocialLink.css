@@ -12,3 +12,9 @@
 .SocialLink:hover svg {
   fill: #fff;
 }
+
+@media only screen and (max-width: 640px) {
+  .SocialLink svg {
+    height: 2rem;
+  }
+}

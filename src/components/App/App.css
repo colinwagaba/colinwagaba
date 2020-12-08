@@ -52,3 +52,18 @@ footer {
   justify-content: center;
   grid-gap: 1rem;
 }
+
+@media only screen and (max-width: 640px) {
+  .App {
+    align-items: unset;
+  }
+
+  header {
+    font-size: 4rem;
+    padding: 0 2rem;
+  }
+
+  footer {
+    grid-gap: 10px;
+  }
+}
