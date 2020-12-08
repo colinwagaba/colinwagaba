@@ -1,0 +1,89 @@
+@font-face {
+  font-family: helvetica-neue;
+  font-weight: 100;
+  src: url("./assets/fonts/helvetica-neue-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: helvetica-neue;
+  font-weight: 200;
+  src: url("./assets/fonts/helvetica-neue-thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: helvetica-neue;
+  src: url("./assets/fonts/helvetica-neue-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: helvetica-neue;
+  font-weight: 600;
+  src: url("./assets/fonts/helvetica-neue-bold.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  color: #000;
+  font-family: "helvetica-neue", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: underline;
+  color: #f00;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+textarea,
+input,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="search"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+  box-sizing: border-box;
+
+  /* remove inner shadows */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* hide arrows from number input */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
