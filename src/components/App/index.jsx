@@ -14,7 +14,7 @@ const App = () => (
   <div className="App">
     <div className="Overlay" />
     <div className="Wrapper">
-      <header>colin wagaba</header>
+      <header>kawere wagaba</header>
       <main>
         <div>Creator</div>
         <div>Human</div>
