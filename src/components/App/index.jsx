@@ -21,12 +21,12 @@ const App = () => (
         <div>Curious</div>
       </main>
       <footer>
-        <SocialLink icon={<GithubIcon />} href="https://github.com/colinwagaba" />
-        <SocialLink icon={<LinkedInIcon />} href="https://www.linkedin.com/in/colinwagaba/" />
-        <SocialLink icon={<MediumIcon />} href="https://medium.com/@colinwagaba" />
-        <SocialLink icon={<InstagramIcon />} href="https://www.instagram.com/colinwagaba/" />
-        <SocialLink icon={<TwitterIcon />} href="https://twitter.com/colinwagaba" />
-        <SocialLink icon={<FacebookIcon />} href="https://www.facebook.com/colinwagaba" />
+        <SocialLink icon={<GithubIcon />} href="https://github.com/kawerewagaba" />
+        <SocialLink icon={<LinkedInIcon />} href="https://www.linkedin.com/in/kawerewagaba/" />
+        <SocialLink icon={<MediumIcon />} href="https://medium.com/@kawerewagaba" />
+        <SocialLink icon={<InstagramIcon />} href="https://www.instagram.com/kawerewagaba/" />
+        <SocialLink icon={<TwitterIcon />} href="https://twitter.com/kawerewagaba" />
+        <SocialLink icon={<FacebookIcon />} href="https://www.facebook.com/kawerewagaba" />
       </footer>
     </div>
   </div>
