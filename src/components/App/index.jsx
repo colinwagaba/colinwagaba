@@ -23,7 +23,7 @@ const App = () => (
       <footer>
         <SocialLink icon={<GithubIcon />} href="https://github.com/kawerewagaba" />
         <SocialLink icon={<LinkedInIcon />} href="https://www.linkedin.com/in/kawerewagaba/" />
-        <SocialLink icon={<MediumIcon />} href="https://medium.com/@kawerewagaba" />
+        <SocialLink icon={<MediumIcon />} href="https://kawerewagaba.medium.com/" />
         <SocialLink icon={<InstagramIcon />} href="https://www.instagram.com/kawerewagaba/" />
         <SocialLink icon={<TwitterIcon />} href="https://twitter.com/kawerewagaba" />
         <SocialLink icon={<FacebookIcon />} href="https://www.facebook.com/kawerewagaba" />
